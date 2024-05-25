@@ -1,5 +1,4 @@
 import 'package:file_downloader/demo_screen.dart';
-import 'package:file_downloader/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -20,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeScreen(),
+      home: const DemoScreen(),
     );
   }
 }

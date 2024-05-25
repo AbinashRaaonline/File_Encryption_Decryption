@@ -101,6 +101,7 @@ class _HomeScreenState extends State<HomeScreen>
                   //if (isGranted) {
                     Directory? appDocDir =
                         await getApplicationDocumentsDirectory();
+                        
                     getNormalFile(appDocDir, filename);
                   // } else {
                   //   requestStoragePermission();
